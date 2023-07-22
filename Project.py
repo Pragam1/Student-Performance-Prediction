@@ -134,7 +134,7 @@ modelD.fit(feats_Train, lbls_Train)
 lbls_predD = modelD.predict(feats_Test)
 for a,b in zip(lbls_Test, lbls_predD):
     if(a==b):
-        countD += 
+        countD += 1
 accD = (countD/len(lbls_Test))
 print("\nAccuracy measures using Decision Tree:")
 print(m.classification_report(lbls_Test, lbls_predD),"\n")
