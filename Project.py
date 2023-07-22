@@ -31,7 +31,7 @@ while(ch != 10):
         fig, axesarr = plt.subplots(1, figsize=(10, 6))
         sb.countplot(x='Semester', hue='Class', data=data, hue_order=['L', 'M', 'H'], axes=axesarr)
         plt.show()
-    elif (ch == 3)
+    elif (ch == 3):
         print("Loading Graph..\n")
         t.sleep(1)
         print("\tMarks Class Gender-wise Graph")
